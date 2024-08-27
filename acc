@@ -19,8 +19,6 @@
         .logo {
             width: 100px;
             height: 100px;
-            background-color: #ccc;
-            border-radius: 50%;
             margin-bottom: 12px;
         }
         .heading {
@@ -51,7 +49,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="logo"></div>
+        <img src="https://github.com/aiMuzaah/eveclinic/blob/main/eve%20clinic%20circle%20small.png?raw=true" alt="Logo" class="logo">
         <div class="heading">Account Number</div>
         <div class="account-number" id="accountNumber">7730000034125</div>
         <button class="copy-button" onclick="copyToClipboard()">COPY</button>
